@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SKCaptureViewController.h
 //  SKVideoCapture_ImagePicker
 //
 //  Created by WangYu on 16/5/4.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SKCaptureViewController : UIViewController
 
 @end
-
