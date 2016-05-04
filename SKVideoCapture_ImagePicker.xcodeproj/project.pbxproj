@@ -10,9 +10,7 @@
 		880C1C821CD9FAA200941BCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C1C811CD9FAA200941BCF /* main.m */; };
 		880C1C851CD9FAA200941BCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C1C841CD9FAA200941BCF /* AppDelegate.m */; };
 		880C1C881CD9FAA200941BCF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C1C871CD9FAA200941BCF /* ViewController.m */; };
-		880C1C8B1CD9FAA200941BCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 880C1C891CD9FAA200941BCF /* Main.storyboard */; };
 		880C1C8D1CD9FAA200941BCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 880C1C8C1CD9FAA200941BCF /* Assets.xcassets */; };
-		880C1C901CD9FAA200941BCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 880C1C8E1CD9FAA200941BCF /* LaunchScreen.storyboard */; };
 		880C1C9B1CD9FAA200941BCF /* SKVideoCapture_ImagePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C1C9A1CD9FAA200941BCF /* SKVideoCapture_ImagePickerTests.m */; };
 		880C1CA61CD9FAA200941BCF /* SKVideoCapture_ImagePickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C1CA51CD9FAA200941BCF /* SKVideoCapture_ImagePickerUITests.m */; };
 /* End PBXBuildFile section */
@@ -41,9 +39,7 @@
 		880C1C841CD9FAA200941BCF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		880C1C861CD9FAA200941BCF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		880C1C871CD9FAA200941BCF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		880C1C8A1CD9FAA200941BCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		880C1C8C1CD9FAA200941BCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		880C1C8F1CD9FAA200941BCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		880C1C911CD9FAA200941BCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		880C1C961CD9FAA200941BCF /* SKVideoCapture_ImagePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKVideoCapture_ImagePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		880C1C9A1CD9FAA200941BCF /* SKVideoCapture_ImagePickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKVideoCapture_ImagePickerTests.m; sourceTree = "<group>"; };
@@ -105,10 +101,6 @@
 				880C1C841CD9FAA200941BCF /* AppDelegate.m */,
 				880C1C861CD9FAA200941BCF /* ViewController.h */,
 				880C1C871CD9FAA200941BCF /* ViewController.m */,
-				880C1C891CD9FAA200941BCF /* Main.storyboard */,
-				880C1C8C1CD9FAA200941BCF /* Assets.xcassets */,
-				880C1C8E1CD9FAA200941BCF /* LaunchScreen.storyboard */,
-				880C1C911CD9FAA200941BCF /* Info.plist */,
 				880C1C801CD9FAA200941BCF /* Supporting Files */,
 			);
 			path = SKVideoCapture_ImagePicker;
@@ -117,6 +109,8 @@
 		880C1C801CD9FAA200941BCF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				880C1C8C1CD9FAA200941BCF /* Assets.xcassets */,
+				880C1C911CD9FAA200941BCF /* Info.plist */,
 				880C1C811CD9FAA200941BCF /* main.m */,
 			);
 			name = "Supporting Files";
@@ -243,9 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				880C1C901CD9FAA200941BCF /* LaunchScreen.storyboard in Resources */,
 				880C1C8D1CD9FAA200941BCF /* Assets.xcassets in Resources */,
-				880C1C8B1CD9FAA200941BCF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,25 +298,6 @@
 			targetProxy = 880C1CA21CD9FAA200941BCF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		880C1C891CD9FAA200941BCF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				880C1C8A1CD9FAA200941BCF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		880C1C8E1CD9FAA200941BCF /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				880C1C8F1CD9FAA200941BCF /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		880C1CA81CD9FAA200941BCF /* Debug */ = {

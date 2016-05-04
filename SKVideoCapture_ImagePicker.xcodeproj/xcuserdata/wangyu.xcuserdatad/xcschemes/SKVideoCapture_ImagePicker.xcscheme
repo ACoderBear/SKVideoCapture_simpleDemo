@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "880C1C7C1CD9FAA200941BCF"
+               BuildableName = "SKVideoCapture_ImagePicker.app"
+               BlueprintName = "SKVideoCapture_ImagePicker"
+               ReferencedContainer = "container:SKVideoCapture_ImagePicker.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "880C1C951CD9FAA200941BCF"
+               BuildableName = "SKVideoCapture_ImagePickerTests.xctest"
+               BlueprintName = "SKVideoCapture_ImagePickerTests"
+               ReferencedContainer = "container:SKVideoCapture_ImagePicker.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "880C1CA01CD9FAA200941BCF"
+               BuildableName = "SKVideoCapture_ImagePickerUITests.xctest"
+               BlueprintName = "SKVideoCapture_ImagePickerUITests"
+               ReferencedContainer = "container:SKVideoCapture_ImagePicker.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "880C1C7C1CD9FAA200941BCF"
+            BuildableName = "SKVideoCapture_ImagePicker.app"
+            BlueprintName = "SKVideoCapture_ImagePicker"
+            ReferencedContainer = "container:SKVideoCapture_ImagePicker.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "880C1C7C1CD9FAA200941BCF"
+            BuildableName = "SKVideoCapture_ImagePicker.app"
+            BlueprintName = "SKVideoCapture_ImagePicker"
+            ReferencedContainer = "container:SKVideoCapture_ImagePicker.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "880C1C7C1CD9FAA200941BCF"
+            BuildableName = "SKVideoCapture_ImagePicker.app"
+            BlueprintName = "SKVideoCapture_ImagePicker"
+            ReferencedContainer = "container:SKVideoCapture_ImagePicker.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
